@@ -87,6 +87,7 @@
         })();
     </script>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Lightbox-Gallery-baguetteBox.min.css">
 </head>
 
 <body>
@@ -111,7 +112,48 @@
             </div>
         </div>
     </div>
+    <div class="row mb-5" style="margin: 48px 36.5px;">
+        <div class="col-md-8 col-xl-6 text-center mx-auto">
+            <h1 class="iridescent-title" style="filter: blur(0px);">Iridescent</h1>
+            <p>A poetic puzzle game about loss, memory and acceptance.<br>Available at&nbsp;<a href="https://felixve.itch.io/iridescent">felixve.itch.io/iridescent</a></p>
+        </div>
+    </div>
+    <div class="row" style="margin: 48px 10%;">
+        <div class="col">
+            <h2 style="margin-bottom: 24px;">About Iridescent</h2>
+            <p>Iridescent was created as an end of year project for my first year of Masters at Cnam-Enjmin.<br>It's a mix between a walking sim and a puzzle game, with an open-ended narrative.<br>In it, you explore a sequence of environments, taking you through varied moods and emotions, while solving puzzles based on angles and points of view, to keep moving forward.</p>
+        </div>
+    </div>
+    <div class="row" style="margin: 48px 10% 0px;">
+        <div class="col">
+            <h2 style="margin-bottom: 24px;">My contributions</h2>
+            <p>Iridescent was made by a team of 7 students, among which I was the only programmer. I worked alongside a game designer, two game artists, a sound designer, a UX designer, and a producer.</p>
+            <p>A lot of my time was spent implementing the puzzle mechanics. Many of them are based on the player's position and view direction, which required careful processing to make the detection seamless and intuitive for the players.</p>
+            <p>The project required a lot of unconventional visuals, so I also took a tech artist role.<br>I implemented objects that can only be seen from behind certain materials, through a custom shader that leverages two depth buffers.<br>I also made a system that projects an image of an object onto the world, so that it aligns when viewed from the correct point, similar to a concept found in Superliminal.<br>Finally, I also implemented a procedural animation system that creates transitions between gameplay phases. By progressively taking away control from the player, and at the same, progressively giving control to the custom animation system, the player can enter the transition from any position or viewing angle, and the transition will play smoothly, without any snapping.</p>
+        </div>
+    </div>
+    <section class="py-4 py-xl-5" style="padding: 0px;margin: 0px 10%;">
+        <div class="container">
+            <div class="row" style="margin: 0px -12px 0px;margin-bottom: 24px;">
+                <div class="col-md-8 col-xl-6 text-start">
+                    <h2 class="text-start">Gallery</h2>
+                </div>
+            </div>
+            <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3" data-bss-baguettebox="">
+                <div class="col">
+                    <div class="ratio ratio-16x9"><iframe src="https://youtube.com/embed/lHHxazOgeNk"></iframe></div>
+                </div>
+                <div class="col"><a href="assets/img/Iridescent.webp"><img class="img-fluid" src="assets/img/Iridescent.webp"></a></div>
+                <div class="col"><a href="assets/img/Iridescent%20Level%201.jpg"><img class="img-fluid" src="assets/img/Iridescent%20Level%201.jpg"></a></div>
+                <div class="col"><a href="assets/img/Iridescent%20Level%202.jpg"><img class="img-fluid" src="assets/img/Iridescent%20Level%202.jpg"></a></div>
+                <div class="col"><a href="assets/img/Iridescent%20Level%203.jpg"><img class="img-fluid" src="assets/img/Iridescent%20Level%203.jpg"></a></div>
+                <div class="col"><a href="assets/img/Iridescent%20Decal.jpg"><img class="img-fluid" src="assets/img/Iridescent%20Decal.jpg"></a></div>
+            </div>
+        </div>
+    </section>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Lightbox-Gallery-baguetteBox.min.js"></script>
+    <script src="assets/js/Lightbox-Gallery.js"></script>
 </body>
 
 </html>
